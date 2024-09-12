@@ -1,0 +1,8 @@
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\bin\TestLightControl.dll
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\bin\TestLightControl.pdb
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\bin\TestLightControl.xml
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\obj\Debug\TestLightControl.Resources.resources
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\obj\Debug\TestLightControl.vbproj.GenerateResource.Cache
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\obj\Debug\TestLightControl.dll
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\obj\Debug\TestLightControl.xml
+C:\Users\Greg\Documents\Insteon\TestLightControl\TestLightControl\obj\Debug\TestLightControl.pdb

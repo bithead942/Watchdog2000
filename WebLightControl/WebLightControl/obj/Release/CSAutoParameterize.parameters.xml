@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WatchdogConnectionString1-Web.config Connection String" description="WatchdogConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=watchdog1;Initial Catalog=Watchdog;User ID=sa;Password=lEEward1" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Greg\\Documents\\Insteon\\TestLightControl\\TestLightControl\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WatchdogConnectionString1']/@connectionString" />
+  </parameter>
+</parameters>

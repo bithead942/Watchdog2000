@@ -1,0 +1,377 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebLightControl
+</name>
+</assembly>
+<members>
+<member name="F:WebLightControl.WebForm2.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnMasterBedroom">
+	<summary>
+btnMasterBedroom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnEthanBedroom">
+	<summary>
+btnEthanBedroom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnMasterBedroomFan">
+	<summary>
+btnMasterBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnEthanBedroomFan">
+	<summary>
+btnEthanBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnMasterBathroom">
+	<summary>
+btnMasterBathroom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnSydneyBedroom">
+	<summary>
+btnSydneyBedroom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnMasterCloset">
+	<summary>
+btnMasterCloset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnSydneyBedroomFan">
+	<summary>
+btnSydneyBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnKidsHallway">
+	<summary>
+btnKidsHallway control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnSpareBedroom">
+	<summary>
+btnSpareBedroom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnKidsBathroom">
+	<summary>
+btnKidsBathroom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnSpareBedroomFan">
+	<summary>
+btnSpareBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnMudRoom">
+	<summary>
+btnMudRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnSpiderLamp">
+	<summary>
+btnSpiderLamp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnPantry">
+	<summary>
+btnPantry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnSconceLights">
+	<summary>
+btnSconceLights control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnFDCoach">
+	<summary>
+btnFDCoach control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnGDCoach">
+	<summary>
+btnGDCoach control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnKitchen">
+	<summary>
+btnKitchen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnPlayRoomEast">
+	<summary>
+btnPlayRoomEast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnKitchenNook">
+	<summary>
+btnKitchenNook control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnPlayRoomWest">
+	<summary>
+btnPlayRoomWest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnLivingRoom">
+	<summary>
+btnLivingRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnShellLamp">
+	<summary>
+btnShellLamp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnBackyardSpot">
+	<summary>
+btnBackyardSpot control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnDiningRoom">
+	<summary>
+btnDiningRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnFrontHall">
+	<summary>
+btnFrontHall control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnBasementStairs">
+	<summary>
+btnBasementStairs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnBasementN">
+	<summary>
+btnBasementN control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnArtRoom">
+	<summary>
+btnArtRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnBasementMid">
+	<summary>
+btnBasementMid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnServerRoom">
+	<summary>
+btnServerRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnBasementS">
+	<summary>
+btnBasementS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm2.btnTestLamp">
+	<summary>
+btnTestLamp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebLightControl.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:WebLightControl.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:WebLightControl.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:WebLightControl.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:WebLightControl.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:WebLightControl.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:WebLightControl.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WebLightControl.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WebLightControl.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:WebLightControl.WebForm1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm1.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm1.lblCurrentState">
+	<summary>
+lblCurrentState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm1.btnOn">
+	<summary>
+btnOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm1.btnOff">
+	<summary>
+btnOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebLightControl.WebForm1.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

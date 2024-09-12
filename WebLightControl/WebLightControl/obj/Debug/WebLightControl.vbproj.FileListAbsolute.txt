@@ -1,0 +1,8 @@
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\bin\TestLightControl.dll
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\bin\TestLightControl.pdb
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\bin\TestLightControl.xml
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\obj\Debug\TestLightControl.Resources.resources
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\obj\Debug\WebLightControl.vbproj.GenerateResource.Cache
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\obj\Debug\TestLightControl.dll
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\obj\Debug\TestLightControl.xml
+C:\Users\Greg\Documents\Watchdog\WebLightControl\WebLightControl\obj\Debug\TestLightControl.pdb
