@@ -1,2 +1,2 @@
-# Watchdog2000
-Watchdog 2000
+# Watchdog Update House
+A component of Watchdog 2000
