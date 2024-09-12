@@ -1,0 +1,8 @@
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\bin\WebRoomControl.dll
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\bin\WebRoomControl.pdb
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\bin\WebRoomControl.xml
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\obj\Debug\WebRoomControl.Resources.resources
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\obj\Debug\WebRoomControl.vbproj.GenerateResource.Cache
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\obj\Debug\WebRoomControl.dll
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\obj\Debug\WebRoomControl.xml
+C:\Users\Greg\Documents\Watchdog\WebRoomControl\obj\Debug\WebRoomControl.pdb

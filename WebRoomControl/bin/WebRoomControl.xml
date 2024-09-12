@@ -1,0 +1,1313 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebRoomControl
+</name>
+</assembly>
+<members>
+<member name="P:WebRoomControl.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:WebRoomControl.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:WebRoomControl.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:WebRoomControl.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:WebRoomControl.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:WebRoomControl.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WebRoomControl.LivingRoom.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.lblTemp">
+	<summary>
+lblTemp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.lblLivingRoomLight">
+	<summary>
+lblLivingRoomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.btnLivingRoomLightOn">
+	<summary>
+btnLivingRoomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.btnLivingRoomLightOff">
+	<summary>
+btnLivingRoomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.lblShellLamp">
+	<summary>
+lblShellLamp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.btnShellLampOn">
+	<summary>
+btnShellLampOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.btnShellLampOff">
+	<summary>
+btnShellLampOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.lblBlinds">
+	<summary>
+lblBlinds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.btnBlindsOpen">
+	<summary>
+btnBlindsOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.btnBlindsDownOpen">
+	<summary>
+btnBlindsDownOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.btnBlindsFullyClose">
+	<summary>
+btnBlindsFullyClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.LivingRoom.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebRoomControl.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WebRoomControl.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WebRoomControl.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:WebRoomControl.Outside.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.lblTemp">
+	<summary>
+lblTemp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.lblGDoorCoachLights">
+	<summary>
+lblGDoorCoachLights control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.btnGDoorCoachLightsOn">
+	<summary>
+btnGDoorCoachLightsOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.btnGDoorCoachLightsOff">
+	<summary>
+btnGDoorCoachLightsOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.lblFDoorCoachLights">
+	<summary>
+lblFDoorCoachLights control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.btnFDoorCoachLightsOn">
+	<summary>
+btnFDoorCoachLightsOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.btnFDoorCoachLightsOff">
+	<summary>
+btnFDoorCoachLightsOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.lblBackyardSpot">
+	<summary>
+lblBackyardSpot control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.btnBackyardSpotOn">
+	<summary>
+btnBackyardSpotOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.btnBackyardSpotOff">
+	<summary>
+btnBackyardSpotOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Outside.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnUpstairs">
+	<summary>
+btnUpstairs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnBasement">
+	<summary>
+btnBasement control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnLivingRoom">
+	<summary>
+btnLivingRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnDiningRoom">
+	<summary>
+btnDiningRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnKitchen">
+	<summary>
+btnKitchen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnGreatRoom">
+	<summary>
+btnGreatRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnPlayRoom">
+	<summary>
+btnPlayRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl._default.btnOutside">
+	<summary>
+btnOutside control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.lblTemp">
+	<summary>
+lblTemp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.lblSpiderLamp">
+	<summary>
+lblSpiderLamp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.btnSpiderLampOn">
+	<summary>
+btnSpiderLampOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.btnSpiderLampOff">
+	<summary>
+btnSpiderLampOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.lblSconceLights">
+	<summary>
+lblSconceLights control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.btnSconceLightOn">
+	<summary>
+btnSconceLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.btnSconceLightOff">
+	<summary>
+btnSconceLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.lblBlinds">
+	<summary>
+lblBlinds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.btnBlindsOpen">
+	<summary>
+btnBlindsOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.btnBlindsClose">
+	<summary>
+btnBlindsClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.GreatRoom.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.lblTemp">
+	<summary>
+lblTemp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.lblPlayRoomELight">
+	<summary>
+lblPlayRoomELight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.btnPlayRoomELightOn">
+	<summary>
+btnPlayRoomELightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.btnPlayRoomELightOff">
+	<summary>
+btnPlayRoomELightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.lblPlayRoomWLight">
+	<summary>
+lblPlayRoomWLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.btnPlayRoomWLightOn">
+	<summary>
+btnPlayRoomWLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.btnPlayRoomWLightOff">
+	<summary>
+btnPlayRoomWLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.PlayRoom.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblTemp">
+	<summary>
+lblTemp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblMasterBedroomLight">
+	<summary>
+lblMasterBedroomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterBedroomLightOn">
+	<summary>
+btnMasterBedroomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterBedroomLightOff">
+	<summary>
+btnMasterBedroomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblMasterBedroomFan">
+	<summary>
+lblMasterBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterBedroomFanOn">
+	<summary>
+btnMasterBedroomFanOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterBedroomFanOff">
+	<summary>
+btnMasterBedroomFanOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblMasterBathroomLight">
+	<summary>
+lblMasterBathroomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterBathroomLightOn">
+	<summary>
+btnMasterBathroomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterBathroomLightOff">
+	<summary>
+btnMasterBathroomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblMasterClosetLight">
+	<summary>
+lblMasterClosetLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterClosetLightOn">
+	<summary>
+btnMasterClosetLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnMasterClosetLightOff">
+	<summary>
+btnMasterClosetLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblKidsHallwayLight">
+	<summary>
+lblKidsHallwayLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnKidsHallwayLightOn">
+	<summary>
+btnKidsHallwayLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnKidsHallwayLightOff">
+	<summary>
+btnKidsHallwayLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblSpareBedroomLight">
+	<summary>
+lblSpareBedroomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSpareBedroomLightOn">
+	<summary>
+btnSpareBedroomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSpareBedroomLightOff">
+	<summary>
+btnSpareBedroomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblSpareBedroomFan">
+	<summary>
+lblSpareBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSpareBedroomFanOn">
+	<summary>
+btnSpareBedroomFanOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSpareBedroomFanOff">
+	<summary>
+btnSpareBedroomFanOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblSydneyBedroomLight">
+	<summary>
+lblSydneyBedroomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSydneyBedroomLightOn">
+	<summary>
+btnSydneyBedroomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSydneyBedroomLightOff">
+	<summary>
+btnSydneyBedroomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblSydneyBedroomFan">
+	<summary>
+lblSydneyBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSydneyBedroomFanOn">
+	<summary>
+btnSydneyBedroomFanOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnSydneyBedroomFanOff">
+	<summary>
+btnSydneyBedroomFanOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblEthanBedroomLight">
+	<summary>
+lblEthanBedroomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnEthanBedroomLightOn">
+	<summary>
+btnEthanBedroomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnEthanBedroomLightOff">
+	<summary>
+btnEthanBedroomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblEthanBedroomFan">
+	<summary>
+lblEthanBedroomFan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnEthanBedroomFanOn">
+	<summary>
+btnEthanBedroomFanOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnEthanBedroomFanOff">
+	<summary>
+btnEthanBedroomFanOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.lblKidsBathroomLight">
+	<summary>
+lblKidsBathroomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnKidsBathroomLightOn">
+	<summary>
+btnKidsBathroomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.btnKidsBathroomLightOff">
+	<summary>
+btnKidsBathroomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Upstairs.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.lblServerRoomLight">
+	<summary>
+lblServerRoomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnServerRoomLightOn">
+	<summary>
+btnServerRoomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnServerRoomLightOff">
+	<summary>
+btnServerRoomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.lblArtRoomLight">
+	<summary>
+lblArtRoomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnArtRoomLightOn">
+	<summary>
+btnArtRoomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnArtRoomLightOff">
+	<summary>
+btnArtRoomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.lblBasementNLight">
+	<summary>
+lblBasementNLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementNLightOn">
+	<summary>
+btnBasementNLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementNLightOff">
+	<summary>
+btnBasementNLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.lblBasementMidLight">
+	<summary>
+lblBasementMidLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementMidLightOn">
+	<summary>
+btnBasementMidLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementMidLightOff">
+	<summary>
+btnBasementMidLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.lblBasementSLight">
+	<summary>
+lblBasementSLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementSLightOn">
+	<summary>
+btnBasementSLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementSLightOff">
+	<summary>
+btnBasementSLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.lblBasementStairLight">
+	<summary>
+lblBasementStairLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementStairLightOn">
+	<summary>
+btnBasementStairLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.btnBasementStairLightOff">
+	<summary>
+btnBasementStairLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Basement.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.lblBlinds">
+	<summary>
+lblBlinds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.btnBlindsOpen">
+	<summary>
+btnBlindsOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.btnBlindsDownOpen">
+	<summary>
+btnBlindsDownOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.btnBlindsFullyClose">
+	<summary>
+btnBlindsFullyClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.lblDiningRoom">
+	<summary>
+lblDiningRoom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.btnDiningRoomLightOn">
+	<summary>
+btnDiningRoomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.btnDiningRoomLightOff">
+	<summary>
+btnDiningRoomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.lblFrontHallLight">
+	<summary>
+lblFrontHallLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.btnFrontHallLightOn">
+	<summary>
+btnFrontHallLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.btnFrontHallLightOff">
+	<summary>
+btnFrontHallLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.DiningRoom.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblTemp">
+	<summary>
+lblTemp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblKitchenLight">
+	<summary>
+lblKitchenLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnKitchenLightOn">
+	<summary>
+btnKitchenLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnKitchenLightOff">
+	<summary>
+btnKitchenLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblKitchenNookLight">
+	<summary>
+lblKitchenNookLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnKitchenNookOn">
+	<summary>
+btnKitchenNookOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnKitchenNookOff">
+	<summary>
+btnKitchenNookOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblMudRoomLight">
+	<summary>
+lblMudRoomLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnMudRoomLightOn">
+	<summary>
+btnMudRoomLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnMudRoomLightOff">
+	<summary>
+btnMudRoomLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblPantryLight">
+	<summary>
+lblPantryLight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnPantryLightOn">
+	<summary>
+btnPantryLightOn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblPantryLightOff">
+	<summary>
+lblPantryLightOff control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblNorthShade">
+	<summary>
+lblNorthShade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnNorthShadeOpen">
+	<summary>
+btnNorthShadeOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnNorthShadeHalf">
+	<summary>
+btnNorthShadeHalf control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnNorthShadeClose">
+	<summary>
+btnNorthShadeClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.lblSouthShade">
+	<summary>
+lblSouthShade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnSouthShadeOpen">
+	<summary>
+btnSouthShadeOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnSouthShadeHalf">
+	<summary>
+btnSouthShadeHalf control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.btnSouthShadeClose">
+	<summary>
+btnSouthShadeClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebRoomControl.Kitchen.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
