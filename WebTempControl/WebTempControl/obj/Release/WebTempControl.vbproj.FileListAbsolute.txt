@@ -1,0 +1,8 @@
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\bin\WebTempControl.dll
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\bin\WebTempControl.pdb
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\bin\WebTempControl.xml
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\obj\Release\WebTempControl.Resources.resources
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\obj\Release\WebTempControl.vbproj.GenerateResource.Cache
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\obj\Release\WebTempControl.dll
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\obj\Release\WebTempControl.xml
+C:\Users\Greg\Documents\Watchdog\WebTempControl\WebTempControl\obj\Release\WebTempControl.pdb
