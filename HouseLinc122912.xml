@@ -1,0 +1,365 @@
+<settings version="2.0">
+  <insteon>
+    <active_devices>
+      <device insteonID="1E.DB.4E" category="3" subcategory="21" revision="155" top="" ipk="00.00.00" wattage="-2" driver="PLMGateway02U" displayName="" active="True">
+        <notes value="" added="12/28/2012" />
+        <location value="" room="" />
+        <customProperties />
+        <channels>
+          <channel id="0" />
+          <channel id="1" />
+          <channel id="2" />
+          <channel id="3" />
+          <channel id="4" />
+          <channel id="5" />
+          <channel id="6" />
+          <channel id="7" />
+          <channel id="8" />
+          <channel id="9" />
+          <channel id="10" />
+          <channel id="11" />
+          <channel id="12" />
+          <channel id="13" />
+          <channel id="14" />
+          <channel id="15" />
+          <channel id="16" />
+          <channel id="17" />
+          <channel id="18" />
+          <channel id="19" />
+          <channel id="20" />
+          <channel id="21" />
+          <channel id="22" />
+          <channel id="23" />
+          <channel id="24" />
+          <channel id="25" />
+          <channel id="26" />
+          <channel id="27" />
+          <channel id="28" />
+          <channel id="29" />
+          <channel id="30" />
+          <channel id="31" />
+          <channel id="32" />
+          <channel id="33" />
+          <channel id="34" />
+          <channel id="35" />
+          <channel id="36" />
+          <channel id="37" />
+          <channel id="38" />
+          <channel id="39" />
+          <channel id="40" />
+          <channel id="41" />
+          <channel id="42" />
+          <channel id="43" />
+          <channel id="44" />
+          <channel id="45" />
+          <channel id="46" />
+          <channel id="47" />
+          <channel id="48" />
+          <channel id="49" />
+          <channel id="50" />
+          <channel id="51" />
+          <channel id="52" />
+          <channel id="53" />
+          <channel id="54" />
+          <channel id="55" />
+          <channel id="56" />
+          <channel id="57" />
+          <channel id="58" />
+          <channel id="59" />
+          <channel id="60" />
+          <channel id="61" />
+          <channel id="62" />
+          <channel id="63" />
+          <channel id="64" />
+          <channel id="65" />
+          <channel id="66" />
+          <channel id="67" />
+          <channel id="68" />
+          <channel id="69" />
+          <channel id="70" />
+          <channel id="71" />
+          <channel id="72" />
+          <channel id="73" />
+          <channel id="74" />
+          <channel id="75" />
+          <channel id="76" />
+          <channel id="77" />
+          <channel id="78" />
+          <channel id="79" />
+          <channel id="80" />
+          <channel id="81" />
+          <channel id="82" />
+          <channel id="83" />
+          <channel id="84" />
+          <channel id="85" />
+          <channel id="86" />
+          <channel id="87" />
+          <channel id="88" />
+          <channel id="89" />
+          <channel id="90" />
+          <channel id="91" />
+          <channel id="92" />
+          <channel id="93" />
+          <channel id="94" />
+          <channel id="95" />
+          <channel id="96" />
+          <channel id="97" />
+          <channel id="98" />
+          <channel id="99" />
+          <channel id="100" />
+          <channel id="101" />
+          <channel id="102" />
+          <channel id="103" />
+          <channel id="104" />
+          <channel id="105" />
+          <channel id="106" />
+          <channel id="107" />
+          <channel id="108" />
+          <channel id="109" />
+          <channel id="110" />
+          <channel id="111" />
+          <channel id="112" />
+          <channel id="113" />
+          <channel id="114" />
+          <channel id="115" />
+          <channel id="116" />
+          <channel id="117" />
+          <channel id="118" />
+          <channel id="119" />
+          <channel id="120" />
+          <channel id="121" />
+          <channel id="122" />
+          <channel id="123" />
+          <channel id="124" />
+          <channel id="125" />
+          <channel id="126" />
+          <channel id="127" />
+          <channel id="128" />
+          <channel id="129" />
+          <channel id="130" />
+          <channel id="131" />
+          <channel id="132" />
+          <channel id="133" />
+          <channel id="134" />
+          <channel id="135" />
+          <channel id="136" />
+          <channel id="137" />
+          <channel id="138" />
+          <channel id="139" />
+          <channel id="140" />
+          <channel id="141" />
+          <channel id="142" />
+          <channel id="143" />
+          <channel id="144" />
+          <channel id="145" />
+          <channel id="146" />
+          <channel id="147" />
+          <channel id="148" />
+          <channel id="149" />
+          <channel id="150" />
+          <channel id="151" />
+          <channel id="152" />
+          <channel id="153" />
+          <channel id="154" />
+          <channel id="155" />
+          <channel id="156" />
+          <channel id="157" />
+          <channel id="158" />
+          <channel id="159" />
+          <channel id="160" />
+          <channel id="161" />
+          <channel id="162" />
+          <channel id="163" />
+          <channel id="164" />
+          <channel id="165" />
+          <channel id="166" />
+          <channel id="167" />
+          <channel id="168" />
+          <channel id="169" />
+          <channel id="170" />
+          <channel id="171" />
+          <channel id="172" />
+          <channel id="173" />
+          <channel id="174" />
+          <channel id="175" />
+          <channel id="176" />
+          <channel id="177" />
+          <channel id="178" />
+          <channel id="179" />
+          <channel id="180" />
+          <channel id="181" />
+          <channel id="182" />
+          <channel id="183" />
+          <channel id="184" />
+          <channel id="185" />
+          <channel id="186" />
+          <channel id="187" />
+          <channel id="188" />
+          <channel id="189" />
+          <channel id="190" />
+          <channel id="191" />
+          <channel id="192" />
+          <channel id="193" />
+          <channel id="194" />
+          <channel id="195" />
+          <channel id="196" />
+          <channel id="197" />
+          <channel id="198" />
+          <channel id="199" />
+          <channel id="200" />
+          <channel id="201" />
+          <channel id="202" />
+          <channel id="203" />
+          <channel id="204" />
+          <channel id="205" />
+          <channel id="206" />
+          <channel id="207" />
+          <channel id="208" />
+          <channel id="209" />
+          <channel id="210" />
+          <channel id="211" />
+          <channel id="212" />
+          <channel id="213" />
+          <channel id="214" />
+          <channel id="215" />
+          <channel id="216" />
+          <channel id="217" />
+          <channel id="218" />
+          <channel id="219" />
+          <channel id="220" />
+          <channel id="221" />
+          <channel id="222" />
+          <channel id="223" />
+          <channel id="224" />
+          <channel id="225" />
+          <channel id="226" />
+          <channel id="227" />
+          <channel id="228" />
+          <channel id="229" />
+          <channel id="230" />
+          <channel id="231" />
+          <channel id="232" />
+          <channel id="233" />
+          <channel id="234" />
+          <channel id="235" />
+          <channel id="236" />
+          <channel id="237" />
+          <channel id="238" />
+          <channel id="239" />
+          <channel id="240" />
+          <channel id="241" />
+          <channel id="242" />
+          <channel id="243" />
+          <channel id="244" />
+          <channel id="245" />
+          <channel id="246" />
+          <channel id="247" />
+          <channel id="248" />
+          <channel id="249" />
+          <channel id="250" />
+          <channel id="251" />
+          <channel id="252" />
+          <channel id="253" />
+          <channel id="254" />
+        </channels>
+        <database sequence="6" lastUpdate="12/28/2012 7:21 PM" lastStatus="Synchronized">
+          <readResumeData timeStamp="" sequence="0" lastSuccessIndex="0" />
+          <record sequence="0">
+            <device address="1F.4A.5F" group="1" recordControl="226" data1="2" data2="9" data3="66" modified="" />
+          </record>
+          <record sequence="1">
+            <device address="1F.4A.5F" group="0" recordControl="226" data1="1" data2="0" data3="0" modified="12/28/2012 -- 07:21:57 PM" />
+          </record>
+        </database>
+      </device>
+      <device insteonID="1F.4A.5F" category="2" subcategory="9" revision="66" top="" ipk="00.00.00" wattage="-1" driver="ApplianceLinc02CS" displayName="" active="True">
+        <notes value="" added="12/28/2012" />
+        <location value="" room="" />
+        <customProperties />
+        <channels>
+          <channel id="1" />
+        </channels>
+        <database sequence="2" lastUpdate="12/28/2012 7:21 PM" lastStatus="Synchronized">
+          <readResumeData timeStamp="" sequence="0" lastSuccessIndex="0" />
+          <record sequence="0">
+            <device address="1E.DB.4E" group="1" recordControl="162" data1="255" data2="0" data3="0" modified="" />
+          </record>
+          <record sequence="1">
+            <device address="1E.DB.4E" group="0" recordControl="162" data1="255" data2="31" data3="1" modified="12/28/2012 -- 07:21:56 PM" />
+          </record>
+        </database>
+        <properties>
+          <p name="operatingFlags">
+            <device value="0x02" text="" lastUpdate="12/28/2012 7:45 PM" />
+          </p>
+          <p name="X10House">
+            <device value="0x20" text="" lastUpdate="12/28/2012 7:45 PM" />
+          </p>
+          <p name="X10Unit">
+            <device value="0x20" text="" lastUpdate="12/28/2012 7:45 PM" />
+          </p>
+        </properties>
+      </device>
+    </active_devices>
+    <active_gateways>
+      <gateway insteonID="1E.DB.4E">
+        <port serialNumber="A4016OU2" />
+      </gateway>
+    </active_gateways>
+    <scenes nextSceneID="1" />
+    <tasks />
+  </insteon>
+  <houseLinc />
+  <application>
+    <location state="OH" city="Hamilton" lat="39.395806" lon="-84.56492" />
+    <performance messagePause="11" startHop="3" firmwareRetry="3" />
+    <options singleClickSelect="False" />
+    <startup doSyncProcess="True" confirmSyncProcess="False" />
+    <sendMessage retry="2" peakPokeRetry="2" delayAfterAck="1000" />
+    <restorePoints autoSaveRestorePoints="False" autoSaveRestorePointsInterval="13" />
+    <modem configFlag="48" />
+    <houseSync fullSync="False" createChangeReport="False" changeReportEmails="" />
+    <appRetry retryFlag="0" emailFlag="0" pause="False" rcpt="" cc="" bcc="" subject="" body="" sbi="False" />
+    <appRetryWaits broadcast="10" plmCleanup="10" />
+    <house name="" />
+    <notification plmConnection="False" />
+    <email name="" address="" login="" smtpServer="" port="13" useSSL="True" defaultRecipient="False" />
+  </application>
+  <scripts nextEventID="2">
+    <script id="1" name="System Maintenance" enabled="False" system="True">
+      <lastRun lastRunTime="" result="" />
+      <triggers>
+        <trigger id="TimeOfDay" system="True" time="01:00:00" vary="0">
+          <source type="Clock" />
+          <lastRun lastRun="" result="" />
+        </trigger>
+      </triggers>
+      <conditions />
+      <actions>
+        <action id="SystemMaintenance" system="True">
+          <source type="System" />
+          <lastRun lastRun="" result="" />
+        </action>
+      </actions>
+    </script>
+  </scripts>
+  <cameras>
+    <camera id="2" name="SpataCAM1" url="http://192.168.1.151/cgi/jpg/image.cgi" model="Trendnet TV-IP442W" password="yLJLV1WsD0sdUwx5DZRd3A==" user="admin" externalUrl="http://192.168.1.151" frequency="1">
+      <location room="Living Room" />
+      <notes added="12/28/2012" />
+    </camera>
+    <camera id="3" name="SpataCAM2" url="http://192.168.1.152/cgi/jpg/image.cgi" model="Trendnet TV-IP442W" password="yLJLV1WsD0sdUwx5DZRd3A==" user="admin" externalUrl="http://192.168.1.152" frequency="1">
+      <location room="Kitchen" />
+      <notes added="12/28/2012" />
+    </camera>
+    <camera id="4" name="SpataCAM3" url="http://192.168.1.153/cgi/jpg/image.cgi" model="Trendnet TV-IP442W" password="yLJLV1WsD0sdUwx5DZRd3A==" user="admin" externalUrl="http://192.168.1.153" frequency="1">
+      <location room="Basement" />
+      <notes added="12/28/2012" />
+    </camera>
+    <camera id="5" name="SpataCAM4" url="http://192.168.1.155/cgi/jpg/image.cgi" model="Trendnet TV-IP442W" password="yLJLV1WsD0sdUwx5DZRd3A==" user="admin" externalUrl="http://192.168.1.155" frequency="1">
+      <location room="Upstairs Hallway" />
+      <notes added="12/28/2012" />
+    </camera>
+  </cameras>
+  <X10 />
+</settings>

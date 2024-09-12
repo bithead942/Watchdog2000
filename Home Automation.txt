@@ -1,0 +1,27 @@
+H Under-counter RBG light  11/2012
+H Irrigation System II  9/2012
+O Light Box  7/2012
+H TED 6/2012
+H Car Proximity  5/2012
+H RGB Lamps  3/2012
+R Egg bot  3/2012
+H Motorized Air Vents 2/2012
+R Sandwitchbot  2/2012 - 4/2012
+R Face Tracking Robot 1/2012
+H Stair lights, Netchecker, Summary Report, CallForward, Front Door, Aggregate temp & status, 2 new servers (inside/outside)1/2012
+O Halloween costume 10/2011
+O Workbench?  6/2011
+H Automated Irrigation System I  5/2011
+H Doorbell, X10 Thermostat 4/2011
+R 2011 National Robotics Challange 4/2011
+H Inernet Connection Status, X10 control, Irrigation control, visitor status, Nat. Weather Svc warning 12/2010
+H Lizard Habitat 10/2010
+H Magic Mirror 10/2010
+O Laser Light Show 10/2010
+O Laser Harp
+H Brine Tank Sensor - First Arduino 1/2010
+H X10 Thermostat 1/2010 (earlier)
+H SARAH, occupied 12/2009
+H Vacation Mode, temp warning 9/2009
+H Pager 8/2009
+H X10 Interface 6/2009

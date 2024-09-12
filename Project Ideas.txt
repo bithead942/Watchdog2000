@@ -1,0 +1,87 @@
+1.  Integrate EPOC into house
+
+2.  Update Sarah to record message at front door - detect no voice?
+	- Install microphone at front door
+	- Test mic outside
+
+4.  Build SumoBots
+
+5.  RGB Lights in the house show "mood" of Sarah or house status (green = secure, red = unsecure)
+
+6.  Tshirt with Lillypad - heart rate/beat
+
+7.  Grey water collection tanks on drains with solar-powered water pump for watering the plants
+
+9.  Glass break sensor
+
+14.  Golf bag that follows you automatically.
+
+18.  Garbage cans that automatically take themselves out on trash night
+
+21.  Check boxes to turn on/off certain sensors in WDUpdateHouse
+
+28.  Finish Tank Robot - 2nd battery for cannon
+
+29.  Finish PoV Nunchuck - multi-color?
+
+32.  Read TED for info on high usage.  Build model to determine mid-day progress.
+
+34.  Correlation of time doors are open and temp of house.  Run query for each door and calc total time open, then compare to min/max/avg temp and power used per day.
+
+38.  Whole house intercom  (Chamberlain Wireless Intercom System)
+
+39.  Automatically close garage door if left open at night.
+
+41.  pressure pad on front porch for deliveries.
+	https://www.sparkfun.com/products/9376
+
+43.  Automate Fireplace control
+
+45.  Sensor on natural gas line to measure usage
+
+46.  Internet Link Stoplight (Red, Yellow, Green)
+	- Dashboard with lights for a variety of items like irrigation status, house security, etc.
+
+51.  Smoke alarm integration
+
+52.  CO alarm integration
+
+55.  visual feedback on the amount of energy being used by the house.  Adjust for different times of the year.
+
+56.  Text message when clothes dryer is done
+
+59.  Location trilateration with 3 BLE sources.  Need signal strength API.
+
+61.  New interface for web apps
+
+62.  Automate Garage Door Lock
+
+63.  SpaceQuest game
+
+64.  Upgrade Russound system
+
+65.  Weight Sensors in beds
+
+67.  Refrigerator/freezer doors left open (2 fridge, 3 freezer)
+
+70.  Sump pump monitor
+
+71.  Hydroponics for indoor plants - house controlled.
+
+74.  Pixy mounted on ceiling to track remote.  Then laser pointer/light to show last known location
+
+75.  Metal Detector robot - paints the ground when it finds something
+
+79.  Candy color sorting robot
+
+80.  Air quality sensors integrated into house.  Warn to replace filter.
+
+81.  Robotic Connect 4.  Use color sensors to detect presence/location/color of each checker
+
+82.  Camera in magic mirror - recognize person, instead of ultrasonic.
+
+84.  Comm pad with Emperor glowing.
+
+85.  Geofence with Spark
+
+86.  Persistence of vision - Princess Leia hologram

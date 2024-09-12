@@ -1,0 +1,7 @@
+@echo off
+rdcfg -rem w: -q
+rdcfg -add -sz 10 -dl w: -fs NTFS
+
+copy c:\progra~1\_watchdog\*.* w:\
+
+w:\wdupdatetemp2.exe

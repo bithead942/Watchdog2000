@@ -1,0 +1,30 @@
+210.  Weather image in SARAH hall is not working - remove
+
+218.  Error handling in WDHouseUpdate for DB timeouts
+
+220.  Sarah hall - "fair degrees and 69"
+
+313.  Remove "hide" from Sarah Hallway on doorbell ring
+
+340.  Recode apps with custom errors
+	SARAH2
+
+353.  Web interface for spring/fall setup cycles;  Multi-zone in fall, 2 minute, 1 zone cycle for spring
+
+356.  Create recovery disk (one disk for all?  Test PXE vs. boot disk) with NIC drivers
+
+358.  Update 2015 Special Day greetings
+	http://nationaldaycalendar.com/calendar-at-a-glance/february/
+
+374.  soil moisture sensor 8 (South - willow tree) not working
+
+378.  Irrigation control - check bad moisture sensor (Sensor consistently off for x days)
+
+381.  Irrigation Control - check zero water usage for 1 day = water sensor not working?  Disable for vacation mode.
+
+386.  Test front hill moisture sensors - identify individual
+
+388.  Integrate with forecast.io - SARAH
+	https://api.forecast.io/forecast/95a75eee24600535ad7515bbad576c89/39.367003,-84.475208
+
+389.  Backup and upgrade router
