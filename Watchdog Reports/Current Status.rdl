@@ -1,0 +1,1942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="Watchdog">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=VULTURE\WATCHDOG;Initial Catalog=Watchdog</ConnectString>
+        <Prompt>Enter a user name and password to access the data source:</Prompt>
+      </ConnectionProperties>
+      <rd:DataSourceID>45ea2cdb-a741-47a6-a429-924a50fe89b0</rd:DataSourceID>
+      <rd:SecurityType>DataBase</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="Last_Update">
+          <DataField>Last_Update</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Row_ID">
+          <DataField>Row_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Garage_Door">
+          <DataField>Garage_Door</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Garage_Window_South">
+          <DataField>Garage_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Garage_Window_North">
+          <DataField>Garage_Window_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Garage_Outside_Door">
+          <DataField>Garage_Outside_Door</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Garage_Outside_Door_Lock">
+          <DataField>Garage_Outside_Door_Lock</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Garage_Inside_Door">
+          <DataField>Garage_Inside_Door</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Garage_Inside_Door_Lock">
+          <DataField>Garage_Inside_Door_Lock</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Kitchen_Window">
+          <DataField>Kitchen_Window</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Back_Door">
+          <DataField>Back_Door</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Back_Door_Lock">
+          <DataField>Back_Door_Lock</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Great_Room_Window_South">
+          <DataField>Great_Room_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Great_Room_Window_North">
+          <DataField>Great_Room_Window_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Play_Room_Window_South">
+          <DataField>Play_Room_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Play_Room_window_North">
+          <DataField>Play_Room_window_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Famiy_Room_Window_South">
+          <DataField>Famiy_Room_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Family_Room_Window_Front_South">
+          <DataField>Family_Room_Window_Front_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Family_Room_Window_Front_Middle">
+          <DataField>Family_Room_Window_Front_Middle</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Family_Room_Window_Front_North">
+          <DataField>Family_Room_Window_Front_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Front_Door">
+          <DataField>Front_Door</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Front_Door_Lock">
+          <DataField>Front_Door_Lock</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Dining_Room_Window_South">
+          <DataField>Dining_Room_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Dining_Room_Window_North">
+          <DataField>Dining_Room_Window_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Master_Bath_Window">
+          <DataField>Master_Bath_Window</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Master_Bedroom_Window_South">
+          <DataField>Master_Bedroom_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Master_Bedroom_Window_Back_South">
+          <DataField>Master_Bedroom_Window_Back_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Master_Bedroom_Window_Back_North">
+          <DataField>Master_Bedroom_Window_Back_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Sydney_Bedroom_Window">
+          <DataField>Sydney_Bedroom_Window</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Ethan_Bedroom_Window">
+          <DataField>Ethan_Bedroom_Window</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Mailbox">
+          <DataField>Mailbox</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Spare_Bedroom_Window_North">
+          <DataField>Spare_Bedroom_Window_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Basement_Door">
+          <DataField>Basement_Door</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Basement_Door_Lock">
+          <DataField>Basement_Door_Lock</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Spare_Bedroom_Window_South">
+          <DataField>Spare_Bedroom_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Basement_Window_South">
+          <DataField>Basement_Window_South</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Basement_Window_North">
+          <DataField>Basement_Window_North</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>Watchdog</DataSourceName>
+        <CommandText>SELECT
+  Event_Current_State.Row_ID
+  ,Event_Current_State.Last_Update
+  ,Event_Current_State.Garage_Door
+  ,Event_Current_State.Garage_Window_South
+  ,Event_Current_State.Garage_Window_North
+  ,Event_Current_State.Garage_Outside_Door
+  ,Event_Current_State.Garage_Outside_Door_Lock
+  ,Event_Current_State.Garage_Inside_Door
+  ,Event_Current_State.Garage_Inside_Door_Lock
+  ,Event_Current_State.Kitchen_Window
+  ,Event_Current_State.Back_Door
+  ,Event_Current_State.Back_Door_Lock
+  ,Event_Current_State.Great_Room_Window_South
+  ,Event_Current_State.Great_Room_Window_North
+  ,Event_Current_State.Play_Room_Window_South
+  ,Event_Current_State.Play_Room_window_North
+  ,Event_Current_State.Famiy_Room_Window_South
+  ,Event_Current_State.Family_Room_Window_Front_South
+  ,Event_Current_State.Family_Room_Window_Front_Middle
+  ,Event_Current_State.Family_Room_Window_Front_North
+  ,Event_Current_State.Front_Door
+  ,Event_Current_State.Front_Door_Lock
+  ,Event_Current_State.Dining_Room_Window_South
+  ,Event_Current_State.Dining_Room_Window_North
+  ,Event_Current_State.Master_Bath_Window
+  ,Event_Current_State.Master_Bedroom_Window_South
+  ,Event_Current_State.Master_Bedroom_Window_Back_South
+  ,Event_Current_State.Master_Bedroom_Window_Back_North
+  ,Event_Current_State.Sydney_Bedroom_Window
+  ,Event_Current_State.Ethan_Bedroom_Window
+  ,Event_Current_State.Spare_Bedroom_Window_North
+  ,Event_Current_State.Spare_Bedroom_Window_South
+  ,Event_Current_State.Mailbox
+  ,Event_Current_State.Basement_Door
+  ,Event_Current_State.Basement_Door_Lock
+  ,Event_Current_State.Basement_Window_South
+  ,Event_Current_State.Basement_Window_North
+FROM
+  Event_Current_State
+WHERE
+  Event_Current_State.Row_ID = 1</CommandText>
+        <rd:RQDDesignerState><QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational"><SelectedColumns><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Row_ID" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Last_Update" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Garage_Door" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Garage_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Garage_Window_North" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Garage_Outside_Door" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Garage_Outside_Door_Lock" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Garage_Inside_Door" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Garage_Inside_Door_Lock" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Kitchen_Window" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Back_Door" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Back_Door_Lock" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Great_Room_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Great_Room_Window_North" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Play_Room_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Play_Room_window_North" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Famiy_Room_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Family_Room_Window_Front_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Family_Room_Window_Front_Middle" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Family_Room_Window_Front_North" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Front_Door" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Front_Door_Lock" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Dining_Room_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Dining_Room_Window_North" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Master_Bath_Window" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Master_Bedroom_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Master_Bedroom_Window_Back_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Master_Bedroom_Window_Back_North" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Sydney_Bedroom_Window" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Ethan_Bedroom_Window" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Spare_Bedroom_Window_North" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Spare_Bedroom_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Mailbox" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Basement_Door" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Basement_Door_Lock" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Basement_Window_South" /><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Basement_Window_North" /></SelectedColumns><Filters><Filter Operator="="><ColumnExpression ColumnOwner="Event_Current_State" ColumnName="Row_ID" /><FilterValue>1</FilterValue></Filter></Filters></QueryDefinition></rd:RQDDesignerState>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Textbox Name="ReportTitle">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Current Status</Value>
+                <Style>
+                  <FontFamily>Verdana</FontFamily>
+                  <FontSize>20pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:WatermarkTextbox>Title</rd:WatermarkTextbox>
+        <rd:DefaultName>ReportTitle</rd:DefaultName>
+        <Left>0.69111in</Left>
+        <Height>0.4in</Height>
+        <Width>4.80889in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>6.11875in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>5.37833in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Rectangle Name="Rectangle1">
+                      <ReportItems>
+                        <Textbox Name="Textbox2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Master Bathroom Window</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Master_Bath_Window.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.37583in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Master Bedroom Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Master_Bedroom_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.65708in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <ZIndex>1</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Top Floor:</Value>
+                                  <Style>
+                                    <FontSize>12pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Left>0.08416in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.3125in</Width>
+                          <ZIndex>2</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Master Bedroom Window Back South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Master_Bedroom_Window_Back_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.93486in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <ZIndex>3</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox6">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Family Room Window Front North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Family_Room_Window_Front_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.93486in</Top>
+                          <Left>2.46042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84376in</Width>
+                          <ZIndex>4</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Front Door Lock</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Front_Door_Lock.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.65708in</Top>
+                          <Left>2.46042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84376in</Width>
+                          <ZIndex>5</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox8">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Front Door</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Front_Door.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.37583in</Top>
+                          <Left>2.46041in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>6</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox9">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Main Floor:</Value>
+                                  <Style>
+                                    <FontSize>12pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Left>2.46041in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.3125in</Width>
+                          <ZIndex>7</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Line Name="Line1">
+                          <Top>2.76125in</Top>
+                          <Height>0in</Height>
+                          <Width>2.23in</Width>
+                          <ZIndex>8</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                              <Width>2.25pt</Width>
+                            </Border>
+                            <TopBorder>
+                              <Width>2.25pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Width>2.25pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Width>2.25pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Width>2.25pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Line>
+                        <Textbox Name="Textbox10">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Garage Outside Door</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Garage_Outside_Door.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.42791in</Top>
+                          <Left>0.08416in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.03126in</Width>
+                          <ZIndex>9</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox11">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Garage Door</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Garage_Door.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.15013in</Top>
+                          <Left>0.08416in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.03126in</Width>
+                          <ZIndex>10</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox12">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Outside:</Value>
+                                  <Style>
+                                    <FontSize>12pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.78903in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.3125in</Width>
+                          <ZIndex>11</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox13">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Master Bedroom Window Back North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Master_Bedroom_Window_Back_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>1.21264in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <ZIndex>12</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox14">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Sydney Bedroom Window</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Sydney_Bedroom_Window.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>1.5043in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <ZIndex>13</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox15">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Ethan Bedroom Window</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Ethan_Bedroom_Window.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>1.79597in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <ZIndex>14</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox16">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Spare Bedroom Window North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Spare_Bedroom_Window_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.08764in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <ZIndex>15</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox17">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Spare Bedroom Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Spare_Bedroom_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.3793in</Top>
+                          <Left>0.09459in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.02083in</Width>
+                          <ZIndex>16</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox18">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Family Room Window Front Middle</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Family_Room_Window_Front_Middle.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>1.22652in</Top>
+                          <Left>2.46041in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>17</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox19">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Family Room Window Front South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Family_Room_Window_Front_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>1.51819in</Top>
+                          <Left>2.46041in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>18</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox20">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Family Room Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Famiy_Room_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>1.82375in</Top>
+                          <Left>2.4604in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>19</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox21">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Play Room Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Play_Room_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.11541in</Top>
+                          <Left>2.46042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>20</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox22">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Play Room Window North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Play_Room_window_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.39319in</Top>
+                          <Left>2.46042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>21</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox23">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Great Room Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Great_Room_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.67097in</Top>
+                          <Left>2.46042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>22</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox24">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Great Room Window North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Great_Room_Window_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.96264in</Top>
+                          <Left>2.46042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>23</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox25">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Back Door</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Back_Door.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.2543in</Top>
+                          <Left>2.46042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>24</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox26">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Back Door Lock</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Back_Door_Lock.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.54597in</Top>
+                          <Left>2.46043in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>25</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox27">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Kitchen Window</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Kitchen_Window.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.85152in</Top>
+                          <Left>2.46043in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>26</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox28">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Mud Room Door</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Garage_Inside_Door.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>4.14319in</Top>
+                          <Left>2.46043in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>27</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox29">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Mud Room Door Lock</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Garage_Inside_Door_Lock.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>4.44875in</Top>
+                          <Left>2.46043in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>28</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox30">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Dining Room Window North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Dining_Room_Window_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>4.74041in</Top>
+                          <Left>2.46043in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>29</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox31">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Dining Room Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Dining_Room_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>5.03208in</Top>
+                          <Left>2.46043in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.84377in</Width>
+                          <ZIndex>30</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox32">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Garage Outside Door Lock</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Garage_Outside_Door_Lock.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.71958in</Top>
+                          <Left>0.08416in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.03126in</Width>
+                          <ZIndex>31</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox33">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Garage Window North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Garage_Window_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>4.02513in</Top>
+                          <Left>0.07373in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.04169in</Width>
+                          <ZIndex>32</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox34">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Garage Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Garage_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>4.3168in</Top>
+                          <Left>0.08416in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.03126in</Width>
+                          <ZIndex>33</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox35">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=iif(Fields!Mailbox.Value = 0, "Mail Not Delivered", iif(Fields!Mailbox.Value = 1, "Mail Delivered", "Mail Retrieved"))</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>4.62236in</Top>
+                          <Left>0.07373in</Left>
+                          <Height>0.25in</Height>
+                          <Width>2.04169in</Width>
+                          <ZIndex>34</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox36">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Basement:</Value>
+                                  <Style>
+                                    <FontSize>12pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Left>4.68042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.3125in</Width>
+                          <ZIndex>35</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox37">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Basement Door</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Basement_Door.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.37583in</Top>
+                          <Left>4.68042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.395in</Width>
+                          <ZIndex>36</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox38">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Basement Door Lock</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Basement_Door_Lock.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.6675in</Top>
+                          <Left>4.67001in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.40541in</Width>
+                          <ZIndex>37</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox39">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Basement Window South</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Basement_Window_South.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>0.95916in</Top>
+                          <Left>4.67001in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.40541in</Width>
+                          <ZIndex>38</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox40">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Basement Window North</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>=iif(Fields!Basement_Window_North.Value = 1, "Black", "Red")</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>1.25083in</Top>
+                          <Left>4.67001in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.40541in</Width>
+                          <ZIndex>39</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Line Name="Line2">
+                          <Top>3.2543in</Top>
+                          <Left>4.67001in</Left>
+                          <Height>0in</Height>
+                          <Width>1.43833in</Width>
+                          <ZIndex>40</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                              <Width>2.25pt</Width>
+                            </Border>
+                            <TopBorder>
+                              <Width>2.25pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Width>2.25pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Width>2.25pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Width>2.25pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Line>
+                        <Line Name="Line3">
+                          <Top>3.26819in</Top>
+                          <Left>4.67001in</Left>
+                          <Height>0.70139in</Height>
+                          <Width>0in</Width>
+                          <ZIndex>41</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                              <Width>2.25pt</Width>
+                            </Border>
+                            <TopBorder>
+                              <Width>2.25pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Width>2.25pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Width>2.25pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Width>2.25pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Line>
+                        <Line Name="Line4">
+                          <Top>3.96958in</Top>
+                          <Left>4.68042in</Left>
+                          <Height>0in</Height>
+                          <Width>1.43833in</Width>
+                          <ZIndex>42</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                              <Width>2.25pt</Width>
+                            </Border>
+                            <TopBorder>
+                              <Width>2.25pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Width>2.25pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Width>2.25pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Width>2.25pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Line>
+                        <Line Name="Line5">
+                          <Top>3.26819in</Top>
+                          <Left>6.10834in</Left>
+                          <Height>0.70139in</Height>
+                          <Width>0in</Width>
+                          <ZIndex>43</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>Solid</Style>
+                              <Width>2.25pt</Width>
+                            </Border>
+                            <TopBorder>
+                              <Width>2.25pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Width>2.25pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Width>2.25pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Width>2.25pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Line>
+                        <Textbox Name="Textbox41">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Legend:</Value>
+                                  <Style>
+                                    <FontSize>12pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <TextDecoration>Underline</TextDecoration>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>2.97652in</Top>
+                          <Left>4.67001in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.3125in</Width>
+                          <ZIndex>44</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox42">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>UnSecure</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Normal</FontWeight>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.65013in</Top>
+                          <Left>4.67001in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.40541in</Width>
+                          <ZIndex>45</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox43">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Secure</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <Top>3.35846in</Top>
+                          <Left>4.68042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.395in</Width>
+                          <ZIndex>46</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox44">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Event History</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <TextDecoration>Underline</TextDecoration>
+                                    <Color>Blue</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
+                          <ActionInfo>
+                            <Actions>
+                              <Action>
+                                <Drillthrough>
+                                  <ReportName>/Event History</ReportName>
+                                </Drillthrough>
+                              </Action>
+                            </Actions>
+                          </ActionInfo>
+                          <Top>4.3168in</Top>
+                          <Left>4.68042in</Left>
+                          <Height>0.25in</Height>
+                          <Width>1.40541in</Width>
+                          <ZIndex>47</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </ReportItems>
+                      <KeepTogether>true</KeepTogether>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Rectangle>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.61473in</Top>
+        <Left>0.00708in</Left>
+        <Height>5.37833in</Height>
+        <Width>6.11875in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Image Name="Image1">
+        <Source>Embedded</Source>
+        <Value>Watchdog_Small</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.02792in</Top>
+        <Left>0.00708in</Left>
+        <Height>0.53125in</Height>
+        <Width>0.65625in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+    </ReportItems>
+    <Height>6.0243in</Height>
+    <Style>
+      <Border>
+        <Style>None</Style>
+      </Border>
+    </Style>
+  </Body>
+  <Width>6.20833in</Width>
+  <Page>
+    <PageFooter>
+      <Height>1.35625in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="ExecutionTime">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Fields!Last_Update.Value</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>ExecutionTime</rd:DefaultName>
+          <Top>0.06944in</Top>
+          <Left>4.11542in</Left>
+          <Height>0.25in</Height>
+          <Width>2in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <PageHeight>27.94cm</PageHeight>
+    <PageWidth>21.59cm</PageWidth>
+    <LeftMargin>2.54cm</LeftMargin>
+    <RightMargin>2.54cm</RightMargin>
+    <TopMargin>2.54cm</TopMargin>
+    <BottomMargin>2.54cm</BottomMargin>
+    <Style />
+  </Page>
+  <EmbeddedImages>
+    <EmbeddedImage Name="Watchdog_Small">
+      <MIMEType>image/bmp</MIMEType>
+      <ImageData>Qk2uCQAAAAAAAHYAAAAoAAAATAAAADsAAAABAAQAAAAAADgJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AP+QDAAMDAwADAwMAAwMDAAMDAwADAwMAAwMDAAMDAwADAwMAAzfAADwwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAzwAA0AwADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwAAODAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAMAAwADAAMAAwADAAMnv4ADAAMAAwADAAMAAwADAAMAAwADAAMAAAAwMDAwMDAwMDAwMDgwP//4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAMAAwADAAMAAzf//AO//wADAAMAAwADAwMAAwADAAMAA7f/AAMAADAwMDAwMDAwMDAwP//wO/wwMDAwMDAwMD//8DAwMDAwMDP//DAwAAADAwMAAwMDAAMDAAM/9AP/wwMDAAMDAwA///wAAwMDAAMAN/+DAwAAMDAwMDAwMDAwMDAwO/wyf/AwMDAwMDAwMDP+8DAwMDAwMDP/cDAAAAADAAMAAwADAAMAAwP/gz/0AwADAAMAAwADP/cAAwADN8MD/wADAAAwMDAwMDAwMDAwMDA7/DJ/+DAwMDAwMDAwMD/+cDAwO/wwO/wwMAAAAwADAAMAAwADAAMAJ/8D/8MAAwADAAMAAwAD//QAA7//AD/0AwAAADAwMDAwMDAwMDAwMD//8//wMDAwMDAwMDAwM//+cDP//DP/8DAwAAAAAwADAAMAAwADAAM//7f/wAMAAwADAAMAAz///AM///8//4MAAwAAMDAwMDAwMDAwMDAwP/////AwMDAwMDAwMDJ///AwP//
+///wwMDAAAAMDAwADAwMAAwMDAD/////DAwMAAwMDAAO///wDA7//////AAMDAAAwMDAwMDAwMDAwMDA/////8DAwMDAwMDA////wMDP//////DAwMAAAAAMAAwADAAMAAwAD/////4ADAAMAAwADv///wzf/////9wADAAMAADAwMDAwMDAwMDAwM/////7wMDAwMDAwP/////L//////DAwMDAwAAADAAMAAwADAAMAAzf/////56QDAAMAA////////////+QAAwADAAAAMDAwMDAwMDAwMDA7/////////ngwMD/////////////wMDAwMDAAAAADAAMAAwADAAMAP///////////9Df/////////////wAMAAwADAAAwMDAwMDAwMDAwM////////////////////////////vAwMDAwMAAAAwMDAAMDAwADACf///////////////////////////8DAwMAAwMAADAwMDAwMDAwMDA////////////////////////////8MDAwMDAwAAAAAwADAAMAAwADP///////////////////////////9wADAAMAAwAAMDAwMDAwMDAwM/////////////////////////////wwMDAwMDAAAAMAAwADAAMAAzf////////////////////////////AAwADAAMAAAAwMDAwMDAwMDA////////////////////////////+cDAwMDAwMAAAAAMAAwADAAMAP////////////////////////////AMAAwADAAMAADAwMDAwMDAwMD////////////////////////////gwMDAwMDAwAAADAwMAAwMDAAM////////////////////////////DAAMDAwADAwAAMDAwMDAwMDAz///////////////////////////8MDAwMDAwMDAAAAADAAMAAwADN//////////////////
+/////////wwADAAMAAwADAAAwMDAwMDAwMD/////////////////////////+eDAwMDAwMDAwMAAAAwADAAMAAwO///////////////////////enAAMAAwADAAMAAwAAADAwMDAwMDAz//////////////76+DgwMDAwMDAwMDAwMDAwMDAwAAAAAwADA7cAA///////////9AMAAwADAAMAAwADAAMAAwADAAMAAwAAMDAwMDA//DP/////////+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAMDAwADN///////////wAADAwMAAwMDAAMDAwADAwMAAwMDAAMDAAAwMDAwMnv//////////DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAMAAz///////////+cAAwADAAMAAwADAAMAAwADAAMAAwADAAMAADAwMDP///////////wwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAADAAMDP//////////0AAMAAwADAAMAAwADAAMAAwADAAMAAwADAAAAMDAwMDA7////////8DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAADAAMAAzf//////wADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAAwMDAwMDAy//////gwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAwMDAAMDAz/////AAwMDAAMDAwADAwMAAwMDAAMDAwADAwMAAwMAADAwMDAwMDAz////8DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAwADAAMAAz///4MAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAwAAMDAwMDAwMDL8O/wwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAMAAwADAAMD/AP3AAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAAAAwMDAwMDAwM/Az8DA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAMAAwADAAOAA4ADAAMAAwADAAMAAwADAAMAAwADAAMAAwADAAMAADgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAA8AwMAAwMDAAMAAwADAwMAAwMDAAMDAwADAwMAAwMDAAMDAwADA4AAPnAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDvAAD//twMnAycDJwMnAycDJwMnAycDJwMnAycDJwMnAycDJwMnAzf/wAA</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportID>48b6c15d-0785-4b92-badb-a13ae8498c1d</rd:ReportID>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportServerUrl>http://vulture/reportserver_WATCHDOG</rd:ReportServerUrl>
+</Report>
