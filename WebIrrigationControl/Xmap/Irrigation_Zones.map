@@ -1,0 +1,19 @@
+<html>
+	<head><title>Image Map Sample</title></head>
+	<body>
+		<map name='map'>
+		      <area shape='polygon' coords='595,262,654,262,654,370,595,370' />
+			<area shape='polygon' coords='314,452,469,385,668,377,596,502,307,511' />
+			<area shape='polygon' coords='658,357,660	,303,785,293,900,361,780,470,753,472' />
+			<area shape='polygon' coords='359,533,551,511,747,495,749,535,620,570,380,585' />
+			<area shape='polygon' coords='284,586,671,586,671,637,284,637' />
+			<area shape='polygon' coords='708,561,888,461,1017,309,1063,333,935,505,720,609' />
+			<area shape='polygon' coords='646,32,988,245,957,313,608,96' />
+			<area shape='polygon' coords='414,194,548,173,571,194,540,262,430,261' />
+			<area shape='polygon' coords='431,163,428,102,562,93,744,215,721,256,547,146' />
+			<area shape='polygon' coords='520,0,580,20,105,256,89,192' />
+			<area shape='polygon' coords='246,446,311,305,430,239,432,387,341,387,289,470' />
+			<area shape='polygon' coords='342,151,391,213,187,381,130,309' />
+			<area shape='polygon' coords='0,260,52,240,238,526,193,555,62,437' /></map>
+	</body>
+</html>
