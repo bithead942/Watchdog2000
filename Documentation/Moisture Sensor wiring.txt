@@ -1,0 +1,9 @@
+Wiring for front yard:
+
+Grey wire
+
+Blue - common
+Yellow-White - Zone 1 (Front North)
+Yellow       - Zone 2 (Front Middle North)
+Brown-White  - Zone 3 (Front Middle South
+Brown        - Zone 4 (Front South)
